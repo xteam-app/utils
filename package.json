@@ -1,5 +1,5 @@
 {
-  "name": "utils",
+  "name": "@xteam-app/utils",
   "version": "0.0.0",
   "description": "utils",
   "main": "./dist/index.js",
@@ -7,13 +7,14 @@
     "start": "tsc --watch",
     "build": "tsc"
   },
+  "bin": "./dist/cli/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xteam-app/utils.git"
   },
   "keywords": [],
   "author": "Alex Iliushyk <ailushyk@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xteam-app/utils/issues"
   },
