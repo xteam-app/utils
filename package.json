@@ -1,0 +1,29 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "description": "utils",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xteam-app/utils.git"
+  },
+  "keywords": [],
+  "author": "Alex Iliushyk <ailushyk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xteam-app/utils/issues"
+  },
+  "homepage": "https://github.com/xteam-app/utils#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.2",
+    "@types/yargs": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "yargs": "^17.1.1"
+  }
+}
